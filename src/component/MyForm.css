@@ -1,0 +1,42 @@
+input{
+   width:210px;
+    height:60px;
+    border-radius:10px;
+    border:1px solid rgb(104, 103, 103);
+    padding:5px 20px;
+    
+  }
+label {
+    margin: 12px 0px;
+}
+
+#sub{
+    background-color: rgb(74, 74, 209);
+    color: white;
+    width:100%;
+    margin-top:20px;
+}
+#mes {
+    width:100%;
+    
+}
+
+@media(max-width:768px){
+    input{
+        width:280px;
+        margin:20px;
+      
+        border-radius:10px;
+        border:1px solid black;
+        padding:5px 20px;
+      }
+      label {
+        margin:4px;
+    }
+    #mes{
+        width:90%;
+    }
+    #sub{
+        width:90%;
+    }
+    }

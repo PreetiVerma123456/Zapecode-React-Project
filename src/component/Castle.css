@@ -1,0 +1,376 @@
+.navbutton button {
+color:white;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid blue;
+    background-color: blue;
+}
+
+
+.castle-1 {
+    background-image: url(Untitled\ design\ \(12\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.castle-1 h1 {
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+.castle-1 span {
+    color:blue;
+}
+img.vert-move {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+.castle-1 p {
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+@media(max-width:1200px){
+    img.vert-move {
+        width:70%;
+    }
+    .castle-1 h1 {
+        font-size:32px;
+    }
+    .castle-1 p {
+        font-size:18px;
+        padding: 10px;
+    }
+}
+@media(max-width:768px){
+    img.vert-move {
+        width:70%;
+    }
+    .castle-1 h1 {
+        font-size:32px;
+    }
+    .castle-1 p {
+        font-size:18px;
+        padding: 10px;
+    }
+}
+
+.castle-2 {
+    text-align: center;
+    margin-top: 60px;
+}
+.castle-2 h1 {
+    color:blue;
+    font-size: 44px;
+    font-weight: 500;
+}
+.castle-2 p {
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+
+.castle-3 {
+    text-align: center;
+   width:90%;
+   margin:auto;
+    
+}
+.castle-3 p {
+    font-size:14px;
+    font-weight: 600;
+}
+
+.profile-container {
+    position: relative;
+    width:23%;
+    margin:auto;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  .profile-picture {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #f9f9fc;
+   
+    
+  }
+  
+  .profile-picture .profile-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  
+  }
+  
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .profile-details .profile-name {
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 5px;
+   border-bottom: 3px solid blue;
+  }
+ 
+  
+  
+  
+  
+  .castle-4{
+   
+    margin-top: 30px;
+    width:70%;
+   align-items: center;
+ 
+  }
+  .castle-4 p {
+    font-size:14px;
+    font-weight: 600;
+}
+.profile-contain {
+   
+    width:28%;
+    padding:15px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+ .profile-image-1 {
+    height: 38%;
+    width: 38%;
+    object-fit: cover;
+    border-radius: 50%;
+  
+  }
+ 
+  @media(max-width:1200px){
+.profile-container {
+    width:45%;
+}
+.profile-contain {
+    width:50%;
+    padding:20px;
+    
+}
+.castle-4 {
+    width:90%;
+}
+.profile-image-1 {
+    width:30%;
+    height:30%;
+}
+
+
+  }
+  @media(max-width:768px){
+    .profile-image-1 {
+        width: 55%;
+        height:55%;
+    }
+  }
+
+  .castle-6 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom:50px;
+}
+.castle-6 h1 {
+    color:blue;
+    font-size: 44px;
+    font-weight: 500;
+    margin-top: 70px;
+}
+.castle-6 p {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.castle-6-1 {
+   
+    align-items: center;
+    margin: auto;
+}
+.castle-6-1 h2 {
+    font-weight:500;
+}
+.castle-6-1 span {
+    color: blue;
+    font-size: 36px;
+}
+.castle-6-1 p {
+    font-size: 17px;
+    font-weight: 600;
+}
+@media(max-width:1200px){
+    .castle-6-1 {
+        text-align: center;
+    }
+}
+
+.castle-6-2 h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.castle-6-2 p {
+    font-size: 12px;
+    font-weight: 500;
+}
+.castle-6-2 img {
+    margin-top: 15px;
+}
+.castle-6 .castle-features{
+    width:80%;
+}
+.castle-6-3 h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.castle-6-3 img {
+    margin-top: 15px;
+}
+.castle-6-3 p {
+    font-size: 12px;
+    font-weight: 500;
+}
+.castle-7 {
+    background-image: url(Untitled\ design\ \(11\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  text-align: center;
+    
+    margin-top: 70px;
+}
+.canva {
+    width:50%;
+    margin: auto;
+}
+.castle-7 h1 {
+    
+        font-size: 36px;
+        font-weight: 700;
+        color: white;
+        }
+        .castle-7 p {
+            font-size:22px;
+            font-weight:500;
+            color: white;
+        }
+
+        .profile-container-8 {
+            position: relative;
+            width:23%;
+            margin:auto;
+            border-radius: 15px;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           background-color: rgb(119, 119, 190);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+          }
+          
+          
+          
+          .profile-picture-8 {
+            position: relative;
+           
+            width: 100%;
+            border: 2px solid white;
+            background-color: #f9f9fc;
+            border-radius: 5px;
+           
+            
+          }
+          
+          .profile-picture-8 .profile-image-8 {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+           
+          
+          }
+          
+          .profile-details-8 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 15px;
+          }
+          
+          @media(max-width:1200px){
+            .profile-container-8 {
+                width:45%;
+                margin-top: 10px;
+            }
+            .profile-contain-8 {
+                width:50%;
+                padding:20px;
+                
+            }
+            .castle-8 {
+                width:90%;
+            }
+            .profile-image-8 {
+                width:30%;
+                height:30%;
+            }
+            
+            
+              }
+              @media(max-width:768px){
+                .profile-image-8 {
+                    width: 25%;
+                    height:25%;
+                }
+                .profile-container-8 {
+                    width:45%;
+                    margin-top: 10px;
+                }
+                .profile-details-8{
+                    font-size: 16px;
+                }
+              }
+
+              .a{
+                margin:0 .5rem;
+                padding:10px;
+                border-radius: 15px;
+                width:30%;
+                margin:auto;
+            }     

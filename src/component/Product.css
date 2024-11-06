@@ -1,0 +1,306 @@
+.Bcontainer-0{
+    
+    padding:40px;
+} 
+
+.carousel-item p {
+    font-size:20px;
+    color:black;
+    text-align:left; 
+
+
+}
+.carousel-item{
+    text-align: left;
+}
+.Bcontainer-0-1{
+    align-items: center;
+    margin:auto;
+    
+}
+.carousel-item h1{
+    margin:15px 0px;
+    font-weight:700;
+    font-size:50px;
+    color:black;
+    text-align:left;
+}
+.Bcontainer-0 button {
+    
+    padding: 10px;
+    margin:20px 0px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+
+   color:white;
+    background-color:  rgb(80, 63, 225);;
+}
+
+.Bcontainer-0 button:hover {
+  
+    background-color: rgb(11, 11, 12);
+}
+.Bcontainer-0-2 img{
+   
+    width:90%;
+    margin:auto;
+}
+@media(max-width:768px){
+    .carousel-item h1{
+        margin:15px 0px;
+        font-weight:700;
+        font-size:30px;
+        color:black;
+        text-align:left;
+    }
+}
+    
+
+.BContainer-1 h1{
+    padding:30px 60px;
+  font-size: 55px;
+ 
+
+}
+.BContainer-1 p{
+    padding:0px 60px;
+  font-size: 20px;
+
+}
+@media(max-width:768px){
+    .BContainer-1 h1{
+       
+      font-size: 30px;
+     
+    
+    } 
+}
+.BContainer-2{
+    text-align: center;
+    position: relative;
+   
+}
+.image_24 {
+    position: relative;
+width:85%;
+text-align: center;
+margin-top:50px;
+
+}
+.image_25 {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+.image_26{
+    position: absolute;
+    right: 50px;
+    top: 50px; 
+}
+
+@media(max-width:1200px){
+    .image_25{
+        display:none;
+    }
+    .image_26{
+        display:none;
+    }
+}
+@media(max-width:768px){
+    .image_25{
+        display:none;
+    }
+    .image_26{
+        display:none;
+    }
+}
+img.vert-move {
+    -webkit-animation: mover 2s infinite alternate;
+    animation:  mover 2s infinite alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 2s infinite alternate;
+    animation:  mover 2s infinite alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0);}
+    100% {transform: translateY(-15px);}
+}
+@keyframes mover {
+    0% { transform: translateY(0);}
+    100% {transform: translateY(-15px);}
+}
+
+.BContainer-3 h1{
+   margin-top:50px;
+  font-size: 55px;
+
+
+}
+.Bcontainer-3-1{
+    float:left;
+    padding: 20px;
+}
+.Bcontainer-3-1 img {
+    width:90%;
+
+}
+.Bcontainericons p {
+    font-size:20px;
+    font-weight: 500;
+    
+}
+@media(max-width:768px){
+    .BContainer-3 h1{
+       
+      font-size: 30px;
+     
+    
+    } 
+}
+ 
+ .Bcontainericons{
+    width:70%;
+    margin:auto;
+    
+   
+ }
+ .Bcontainericons img{
+width:70px;
+height:70px;
+margin-top:5px;
+ }
+
+ .Bcontainer4 h1{
+    font-size: 55px;
+    font-weight: 600;
+    
+ }
+ @media(max-width:768px){
+    .Bcontainer4 h1{
+        font-size: 30px;
+        font-weight: 600;
+        
+     } 
+ }
+ 
+ .Bcontainer4{
+    background-color: rgb(204, 210, 210);
+    padding: 30px;
+    margin-top:50px;
+ }
+ 
+ .Bcontainer5 .card{
+    width:90%;
+    border : none;
+    margin:15px;
+    
+    background-color:white;
+   }
+
+   @media(max-width:768px){
+    .Bcontainer5 .card img{
+      align-self: center;
+      margin:10px;
+       }
+   }
+.Bcontainer6 h1{
+    font-size:55px;
+    text-align: center;
+    margin:70px;
+}
+@media(max-width:768px){
+    .Bcontainer6 h1{
+        font-size:30px;
+        text-align: center;
+        margin:50px;
+    }
+}
+.Bcontainer7 li{
+    color:black;
+    font-weight: 400;
+    font-size:17px;
+}
+.Bcontainer7 h4{
+    text-align:center;
+    color:white;
+    padding:15px;
+}
+.Bcontainer7 {
+    text-align: center;
+    margin:auto;
+ 
+  
+}
+.pricecircle{
+height:120px;
+width:120px ;
+border-radius:50% ;
+background-color:rgb(3, 225, 250);
+    margin-top:-80px;
+    align-self:center;
+  align-items :center; 
+  border: 4px solid white;
+  
+}
+.Bcontainer7 h5{
+text-align:center;
+margin-top:40px;
+font-size: 24px;
+color: white;
+}
+.Bcontainer7 button a{
+text-decoration:none;
+color:white;
+font-size:18px;
+font-weight:400;
+margin: 25px;
+}
+.Bcontainer7 .card{
+    width:90%;
+    float: left;
+  margin:12px;
+  align-self: center;
+
+}
+
+
+.Bcontainer8{
+    background-color: rgb(239, 240, 240);
+    padding:100px;
+    text-align: center;
+    margin:50px 0px;
+    
+}
+
+.Bcontainer8 h1{
+    font-size:65px;
+    
+}
+@media(max-width:768px){
+    .Bcontainer8 h1{
+        font-size:30px;
+        
+    }  
+}
+.Bcontainer9 h1{
+    text-align: center;
+    font-size: 50px;
+  padding:30px;
+}
+@media(max-width:768px){
+    .Bcontainer9 h1{
+        text-align: center;
+        font-size: 30px;
+        
+    }
+}
+
+@media (max-width:1000px){
+
+
+.card-data{
+display: none;
+}
+}

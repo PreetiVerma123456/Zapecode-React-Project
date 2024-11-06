@@ -1,0 +1,18 @@
+.button{
+    padding: 25px 70px;
+    margin: 35px;
+    font-size: 20px;
+    border-radius: 15px;
+    display: block;
+   border: none;
+}
+.selected-button {
+    padding: 25px 70px;
+    margin: 35px;
+    font-size: 20px;
+    border-radius: 15px;
+    display: block; 
+    color: rgb(44, 101, 235);
+    background-color: rgb(204, 239, 247);
+    border: none;
+}

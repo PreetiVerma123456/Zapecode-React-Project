@@ -1,0 +1,33 @@
+.cards-wrapper{
+    display: flex;
+margin:auto;
+    padding:50px 10px;
+}
+.card{
+    margin:0 .5rem;
+    padding:10px;
+    border-radius: 15px;
+    width:30%;
+    margin:auto;
+}
+@media (max-width:768px) {
+    .card:not(:first-child){
+        display: none;
+    }
+    .card{
+        width:100%;
+    }
+    
+}
+
+.card-img-top{
+height:300px;
+}
+
+.gradiant3 {
+    background-image: linear-gradient(to right, rgb(24, 23, 24),rgb(186, 180, 180)60%, rgb(12, 12, 12));  }
+
+
+
+
+  
